@@ -1,4 +1,6 @@
-milesDriven = input("Enter the number of miles driven:")
-gallonsOfGasUsed = input("Enter the number of gallons of gas used:")
-MPG = milesDriven/gallonsOfGasUsed
-print(MPG)
+numbers = [4, 7, 2, 9, 12, 15]
+sum_of_odds = 0
+for num in numbers:
+    if num % 2 != 0: 
+        sum_of_odds += num
+print("The sum of all odd numbers is:", sum_of_odds)
